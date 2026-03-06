@@ -4,8 +4,8 @@ pipeline {
     environment {
         APP_NAME       = "python-flask-demo"
         CONTAINER_NAME = "python-flask-demo"
-        APP_PORT       = "5000"
-        HOST_PORT      = "5000"
+        APP_PORT       = "8080"
+        HOST_PORT      = "8080"
         IMAGE_TAG      = "${env.BUILD_NUMBER}"
         APP_VERSION    = "v${env.BUILD_NUMBER}"
     }
